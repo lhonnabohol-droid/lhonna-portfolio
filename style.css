@@ -413,10 +413,6 @@ header {
     margin-top: 15px;
     font-weight: bold;
 }
-body:not(dark-mode) {
-	background: #F4F4F6;
-	color: #26332D;
-}
 body.dark-mode {
     background: #18231D;
     color: #E8F1EB;
