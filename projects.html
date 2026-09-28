@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Projects</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar">
+			<a href="index.html" class="logo">Lhonna</a>
+			<button class="menu-btn" id="menuBtn">☰</button>
+			<ul class="nav-links" id="navLinks">
+				<li><a href="index.html">Home<a/></li>
+				<li><a href="about.html">About<a/></li>
+				<li><a href="skills.html">Skills<a/></li>
+				<li><a href="projects.html">Projects<a/></li>
+				<li><a href="resume.html">Resume<a/></li>
+				<li><a href="contact.html">Contact<a/></li>
+			</ul>
+			<button id="themeBtn" class="theme-btn">🌙</button>
+		</nav>
+	</header>
+	<main>
+	<section class="page-header">
+		<p>WHAT HAVE I CREATED?</p>
+		<h1>Projects</h1>
+		<p>Here are some of the projects I worked on in school and on my own.</p>
+	</section>
+	<section class="project-section">
+		<div class="filter-buttons">
+			<button class="filter-btn active" data-filter="all">All</button>
+			<button class="filter-btn" data-filter="web">Web</button>
+			<button class="filter-btn" data-filter="networking">Networking</button>
+			<button class="filter-btn" data-filter="animation">Animation</button>
+		</div>
+		<div class="project-grid">
+			<article class="project-card" data-category="animation">
+				<img src="images/icecream1.png" alt="Animation Project">
+				<div class="project-content">
+					<span>Animation</span>
+					<h2>Ice Cream Advertisement</h2>
+					<p>An animated ice cream advertisement created as a Midterm Project.</p>
+					<p class="technology">
+						<strong>Technology:</strong>
+						Adobe Animate
+					</p>
+				</div>
+			</article>
+			<article class="project-card" data-category="animation">
+				<img src="images/project2.png" alt="Space-themed animation">
+				<div class="project-content">
+					<span>Animation</span>
+					<h2>Space-themed Animation</h2>
+					<p>A space-themed animation featuring animated space elements.</p>
+					<p class="technology">
+						<strong>Technology:</strong>
+						Adobe Animate
+					</p>
+				</div>
+			</article>
+			<article class="project-card" data-category="web">
+				<img src="images/project3.png" alt="Personal Website">
+				<div class="project-content">
+					<span>Web</span>
+					<h2>Personal Profile Website</h2>
+					<p>A perso
+                    my background, interests, and goals.</p>
+                    <p class="technology">
+                    	<strong>Technology:</strong>
+                    	HTML, CSS
+                    </p>
+				</div>
+			</article>
+			<article class="project-card" data-category="networking">
+				<img src="images/project4.png" alt="Networking Project">
+				<div class="project-content">
+					<span>Networking</span>
+					<h2>Network Configuration</h2>
+					<p> A networking activity involving network
+                    devices, VLANs, switches, and connectivity
+                    configuration.</p>
+                    <p class="technology">
+                    	<strong>Technology:</strong>
+                    	Cisco Packet Tracer
+                    </p>
+				</div>
+			</article>
+		</div>
+	</section>
+	
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
